@@ -3,17 +3,22 @@ from django.db import models
 # Create your models here.
 # The image model 
 class Location(models.Model):
-  location = models.CharField(max_length = 20)
+  location_name = models.CharField(max_length = 20)
   
   def __str__(self):
-    return self.location
+    return self.location_name
 
 
 class Category(models.Model):
-  category = models.CharField(max_length = 10)
+  category_name = models.CharField(max_length = 10)
   
   def __str__(self):
-    return self.category
+    return self.category_name
+
+  # saving a category
+  def save_category(self):
+    self.save()
+
 
 
 
