@@ -151,10 +151,10 @@ Linked - [Nobella Ejiofor](https://www.linkedin.com/in/nobella-ejiofor/)
 
 Gmail - [nobellaejiofor@student.moringaschool.com]()
 
-Github - [RICHIE ORITO](https://github.com/RichieOrito)
+Github - [RICHIE ORITO](https://github.com/Nobella-Nyarari-Ejiofor)
 
 ## Live Link
 
-LiveLink- [Gh-pages](https://ori-gallery.herokuapp.com/)
+LiveLink- [Gh-pages](https://albumarena.herokuapp.com/)
 
 [Go Back to the top](#albumarena)
