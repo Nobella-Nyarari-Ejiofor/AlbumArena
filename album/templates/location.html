@@ -1,36 +1,17 @@
-{% extends 'base.html' %}
-{% block content %}
+{% extends 'base.html'%}
+{% block content%}
+{{block.super}}
+ <div class="container">
 
-{{ block.super }}
-  <div class="row">
-      <div class="col-md-7">
-          <h2 class= "pt-5 mt-5 display-4">Showcasing every <span id ="moment">moment </span>for your memories. </h2>
-          <p class="lead mt-3 pt-3">We store high quality photos for our clients.</p>
-          <button class="btn btn-lg mb-3 mt-3" id="view-gallery" >
-            <a href="#gallery">View Gallery</a>
-          </button>
-          <div id="locationsearch" class="mt-3 mb-3 ">
-             <p>Search for locations available here:</p>
-             <form class=" form-inline my-2 my-lg-0" role="search" action="{% url 'search_location' %}">
-              <input name ="location" class="form-control mr-sm-2" type="search" placeholder="Photos Location" aria-label="Search">
-              <button class="btn btn-outline-primary" type="submit">Search</button>
-            </form>
+     <h4 class= "pt-5 text-center">Here are {{images | length}} images for your {{message}} location search ;</h4>
 
-          </div>
-      </div>
-      <div class="col-md-5">
-          <img class= "img-fluid  mt-5 pl-5" src="/media/cover.jpeg"  id ="cover-image" alt="">
-          
-      </div>
-  </div>
- 
+       <h1 class="text-center pt-5 nunito display-4" id="gallery">{{message}}</h1>
     
-  <h1 class="text-center pt-5 mt-5 nunito display-4" id="gallery">Gallery</h1>
-   <div class="row">
+  <div class="row">
     
     {% for image in images %}
     <div class="col-md-3">
-      <div class="card mt-3"  id="card" style="width: 18rem;">
+      <div class="card mt-5 ml-3 mr-3"  id="card" style="width: 18rem;">
         <img class="card-img-top" src="{{image.image.url}}" height="150px" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">{{image.image_name}}</h5>
@@ -39,10 +20,9 @@
                View 
                {{image.image_name}}
             </button>
-            
         </div>
       </div>
-     </div>
+    </div>
 
      <!-- FOR MODAL -->
 
@@ -68,15 +48,17 @@
           
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
 </div>
 {% endfor %}
- </div>
+ </div>   
 
-
- {% include 'footer.html' %}
+</div>
+{% include 'footer.html' %}
 {% endblock %}
+
+

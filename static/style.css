@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gideon+Roman&family=Nunito&family=PT+Serif&family=Rowdies&family=Space+Grotesk&display=swap');
+
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+#moment{
+  color: red ;
+  
+}
+
+#cover-image{
+  border-radius: 150px 150px 5px 5px;
+  box-shadow: 10px 10px 5px 12px #9AD0EC;
+  height: 600px;
+}
+
+.nunito{
+  font-family: 'Space Grotesk', sans-serif;
+  text-decoration: wavy;
+  text-decoration: underline;
+}
+
+#card button{
+  background-color: #1572A1;
+  font-weight: bold;
+}
+#view-gallery{
+  background-color: #1572A1;
+  margin-bottom: 10rem;
+;
+}
+#view-gallery a{
+  color: white;
+  font: bold;
+  text-decoration : none
+}
+
+
+footer{
+  color : white;
+}
+#copyright{
+  margin: auto;
+  display: inline;
+}
+
+#locationsearch{
+ 
+ border: solid;
+ height: 200px;
+ width: 400px ;
+ border-radius: 25px;
+ padding: 2rem;
+}
