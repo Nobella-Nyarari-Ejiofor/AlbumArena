@@ -151,7 +151,7 @@ Linked - [Nobella Ejiofor](https://www.linkedin.com/in/nobella-ejiofor/)
 
 Gmail - [nobellaejiofor@student.moringaschool.com]()
 
-Github - [RICHIE ORITO](https://github.com/Nobella-Nyarari-Ejiofor)
+Github - [NOBELLA EJIOFOR](https://github.com/Nobella-Nyarari-Ejiofor)
 
 ## Live Link
 
