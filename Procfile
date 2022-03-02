@@ -1,1 +1,1 @@
-web: gunicorn albumarena.wsgi --log-file -
+web: gunicorn arena.wsgi --log-file -
