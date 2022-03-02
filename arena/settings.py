@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-drtqbxlhsm2uf)83k5f$$p*314)r69eoeohyn@qe%@a)s8r3rn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://albumarena.com',
+ALLOWED_HOSTS = ['https://albumarena.herokuapp.com/',
 'localhost',
 '127.0.0.1']
 
